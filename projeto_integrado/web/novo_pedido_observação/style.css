@@ -177,3 +177,19 @@ hr{
     font-size: 25px;
 
 }
+.prosseguir p {
+
+    width: 120px;
+    height: 30px;
+    box-sizing: border-box;
+    background: #1cb5366a;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: 0;
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+    margin-left: 1176px;;
+    text-align: center;
+
+}
