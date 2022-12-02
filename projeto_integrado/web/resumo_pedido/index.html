@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Ecohelp - resumo_pedido</title>
 </head>
 
@@ -24,49 +24,89 @@
     </header>
 
     <main>
-        <div class="conteudo_principal">
-            <div class="barra_lateral">
-                <div class="primeira">
-                    <img class="imagem" src="./img/home.png" alt="home">
-                    <p>Home</p>
-                    <img class="imagem" src="./img/ajuda.png" alt="ajuda">
-                    <p>Ajuda</p>
-                    <img class="imagem" src="./img/add_pedido.png" alt="add_pedido">
-                    <p>Novo pedido</p>
-                    <img class="imagem" src="./img/problema.png" alt="problema">
-                    <p>Relatar problemas</p>
-                    <img class="imagem" src="./img/sobre_empresa.png" alt="empresa">
-                    <p>Sobre a empresa</p>
-                </div>
-                <hr>
-                <p id="p">Acesse também:</p>
-                <div class="acesses">
-    
-                    <img class="imagem" src="./img/facebook.png" alt="facebook">
-                    <img class="imagem" src="./img/insta.png" alt="insta">
-                    <img class="imagem" src="./img/play_store.png" alt="store">
-    
+        <div class="main_conteudo">
+
+            <div class="conteudo_principal">
+                <div class="barra_lateral">
+                    <div class="primeira">
+                        <img class="imagem" src="./img/home.png" alt="home">
+                        <p>Home</p>
+                        <img class="imagem" src="./img/ajuda.png" alt="ajuda">
+                        <p>Ajuda</p>
+                        <img class="imagem" src="./img/add_pedido.png" alt="add_pedido">
+                        <p>Novo pedido</p>
+                        <img class="imagem" src="./img/problema.png" alt="problema">
+                        <p>Relatar problemas</p>
+                        <img class="imagem" src="./img/sobre_empresa.png" alt="empresa">
+                        <p>Sobre a empresa</p>
+                    </div>
+                    <hr>
+                    <p id="p">Acesse também:</p>
+                    <div class="acesses">
+
+                        <img class="imagem" src="./img/facebook.png" alt="facebook">
+                        <img class="imagem" src="./img/insta.png" alt="insta">
+                        <img class="imagem" src="./img/play_store.png" alt="store">
+
+                    </div>
                 </div>
             </div>
-            <ul>
+
+            <div class="context">
+                <h3>Resumo pedido de descarte</h3>
                 <div class="dados">
-                    <h3>Tipo de lixo</h3>
+                    <p> Tipo de lixo:</p>
                     <input type="text" name="tipo_lixo" id="tipo_lixo">
                 </div>
+                <div class="resumo">
+                    <div class="dados_unidade">
+                        <p>unidade</p>
+                        <input type="text" name="unidade" id="unidade">
+                    </div>
 
-                <div class="dados_unidade">
-                    <p>unidade</p>
-                    <input type="text" name="unidade" id="unidade">
+                    <div class="peso">
+                        <p>peso</p>
+                        <input type="text" name="peso" id="peso">
+                    </div>
+
+                    <div class="obs">
+
+                        <p>observação</p>
+                        <input type="text" name="obs" id="obs">
+
+                    </div>
 
                 </div>
-            </ul>
+
+                <div class="end">
+                    <div class="horario">
+                        <p> horario de descarte </p>
+                        <input type="time" name="hora" id="hora">
+                    </div>
+
+                    <div class="endereco">
+
+                        <p>Endereço de descarte</p>
+                        <input type="text" name="Endereco" id="endereco">
+                        
+                    </div>
+                </div>
 
 
-
-
-
-
+            </div>
         </div>
+        <div class="prosseguir">
+            <p> prosseguir </p>
+        </div>
+
+
+
+
+
+
+
+
+
 
     </main>
 
