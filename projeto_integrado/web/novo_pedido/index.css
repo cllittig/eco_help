@@ -55,3 +55,179 @@ header.div.h1 {
     height: 75px;
 
 }
+
+.barra_lateral {
+    margin-top: 85px;
+    align-items: center;
+    padding-left: 50px;
+    width: fit-content;
+    padding-top: 50px;
+}
+.primeira{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.imagem {
+
+    height: 30px;
+    
+
+}
+
+.primeira{
+
+    align-items: center;
+
+}
+
+#p{
+
+    margin:auto;
+    padding: 10px;
+
+}
+
+.acesses {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 45px 45px 1fr;
+    align-items: center;
+    margin: auto;
+}
+hr{
+    width: 100%;
+}
+.conteudo_principal ul{
+    margin-top: 100px;
+}
+#tipo_lixo{
+
+    width: 800px;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: 0;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+.conteudo_principal{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+}
+
+.pedido{
+
+        margin-top: 150px;
+
+}
+
+#obs{
+
+    width: 1000px;
+    height: 123px;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: 0;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+
+}
+
+#data{
+
+    width: 1000px;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: 0;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+#horario_descarte{
+
+
+    width: 130px;
+    box-sizing: border-box;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: 0;
+    font-size: 25px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+#observaçao{
+
+    font-size: 30px;
+
+
+}
+#agendar{
+
+    font-size: 25px;
+
+}
+
+main .escolha_descarte div{
+
+    display: grid;
+    grid-template-columns: 20% 10%;
+
+}
+
+main .escolha_descarte{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+
+main .info .und{
+
+    display:grid;
+    grid-template-columns: 100px 10px;
+
+}
+
+main div .peso_ft{
+
+    display: grid;
+    grid-template-columns: 200px 10px ;
+
+}
+
+
+
+main div .especificacao{
+
+    display: grid;
+    grid-template-columns: 300px 100px;
+
+}
+
+.prosseguir p {
+
+    width: 120px;
+    height: 30px;
+    box-sizing: border-box;
+    background: #1cb5366a;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    border: 0;
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+    margin-left: 810px;;
+    text-align: center;
+
+}
