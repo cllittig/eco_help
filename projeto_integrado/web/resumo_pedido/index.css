@@ -57,16 +57,17 @@ header.div.h1 {
 }
 
 .barra_lateral {
-
+    display: inline-grid;
     margin-top: 85px;
-    display: grid;
-    grid-template-columns: 30px 1fr;
     align-items: center;
     padding-left: 50px;
     width: fit-content;
     padding-top: 50px;
 }
-
+.primeira{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
 .imagem {
 
     height: 30px;
@@ -75,17 +76,21 @@ header.div.h1 {
 
 #p{
 
-    margin-left: 50px;
+    margin:auto;
+    padding: 10px;
 
 }
 
 .acesses {
-
     display: grid;
     margin-top: 20px;
     grid-template-columns: 45px 45px 1fr;
     align-items: center;
-    padding-left: 50px;
-    
+    margin: auto;
 }
-
+hr{
+    width: 100%;
+}
+.dados{
+    display: inline-grid;
+}
