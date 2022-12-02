@@ -16,18 +16,22 @@
         </header>
         <main>
             <ul>
-                <li class="title">
+                <li class="esquerda">
                     <p>unidos,<br><span>com um só propósito!</span></p>
-                    <form action="/action_page.php">
+                    <form action="action_page.php" id="login_form">
                         <label for="fname">login</label><br>
                         <input type="text" id="fname" name="fname" value=""><br>
                         <label for="lname">senha</label><br>
                         <input type="text" id="lname" name="lname" value=""><br><br>
-                        <div><a href="#"><span>entrar</span> <img src="imgs/entrar.png"></a></div>
-                    </form> 
+                        <div class="primaria"><a href="#"><!--<a onClick="document.getElementById('login_form').submit();" type="submit">--><span>entrar</span> <img src="imgs/entrar.png"></a></div>
+                        <div class="secundaria">
+                            <a href="#">esqueci minha senha</a>
+                            <a href="#">criar minha conta</a>
+                        </div>
+                    </form>
                 </li>
-                <li>
-                    
+                <li class="direita">
+                    <img src="imgs/banner1.png" alt="-Imagem sobre reciclagem">
                 </li>
             </ul>
         </main>
