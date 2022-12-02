@@ -63,6 +63,7 @@ header.div.h1 {
     grid-template-columns: 30px 1fr;
     align-items: center;
     padding-left: 50px;
+    width: fit-content;
     padding-top: 50px;
 }
 
