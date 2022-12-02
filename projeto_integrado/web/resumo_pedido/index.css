@@ -56,5 +56,34 @@ header.div.h1 {
 
 }
 
+.barra_lateral {
 
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 50px;
+}
 
+.imagem {
+
+    height: 30px;
+
+}
+
+#p{
+
+    margin-left: 50px;
+
+}
+
+.acesses {
+
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 45px 45px 1fr;
+    align-items: center;
+    padding-left: 50px;
+    
+}
