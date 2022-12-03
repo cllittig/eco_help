@@ -1,0 +1,74 @@
+.barra_lateral {
+    margin-top: 85px;
+    align-items: center;
+    padding-left: 50px;
+    width: fit-content;
+    padding-top: 50px;
+}
+.primeira{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.imagem {
+
+    height: 30px;
+    
+
+}
+
+.primeira{
+
+    align-items: center;
+
+}
+
+#p{
+
+    margin:auto;
+    padding: 10px;
+
+}
+
+.acesses {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 45px 45px 1fr;
+    align-items: center;
+    margin: auto;
+}
+hr{
+    width: 100%;
+}
+
+
+
+a partir daqui é html
+
+
+<div class="main_conteudo">
+            <div class="conteudo_principal">
+                <div class="barra_lateral">
+                    <div class="primeira">
+                        <img class="imagem" src="../imgs_site/home.png" alt="home">
+                        <p>Home</p>
+                        <img class="imagem" src="../imgs_site/ajuda.png" alt="ajuda">
+                        <p>Ajuda</p>
+                        <img class="imagem" src="../imgs_site/add_pedido.png" alt="add_pedido">
+                        <p>Novo pedido</p>
+                        <img class="imagem" src="../imgs_site/problema.png" alt="problema">
+                        <p>Relatar problemas</p>
+                        <img class="imagem" src="../imgs_site/sobre_empresa.png" alt="empresa">
+                        <p>Sobre a empresa</p>
+                    </div>
+                    <hr>
+                    <p id="p">Acesse também:</p>
+                    <div class="acesses">
+
+                        <img class="imagem" src="../imgs_site/facebook.png" alt="facebook">
+                        <img class="imagem" src="../imgs_site/insta.png" alt="insta">
+                        <img class="imagem" src="../imgs_site/play_store.png" alt="store">
+
+                    </div>
+
+
+
